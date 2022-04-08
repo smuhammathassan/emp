@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Records</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+
+</head>
+
+<body>
+
+    <form>
+        <label for="id">ID:</label>
+        <input type="number" id="e-id" name="id"><br><br>
+        <label for="name">Name:</label>
+        <input type="text" id="e-name" name="name"><br><br>
+        <input type="submit" value="Submit" onclick="goinTrough()">
+    </form>
+
+    <button id="btn-login">Connect Metamask</button>
+    <button id="btn-logout">Disconnect Metamask</button>
+
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+
+
+</html>
