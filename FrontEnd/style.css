@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-color: #fff;
+    background-size: cover;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button#btn-login{
+    margin-right: 10px;
+}
+
+#e-id {
+    
+    padding-right: 25px;
+}
+#btn-logout {
+    width: 208px;
+    font-size: 14px;
+}
+#btn-login{
+    width: 208px;
+    font-size: 14px;
+}
+
+div{
+    float:left;
+    position: relative;
+    margin: 10px;
+    padding: 5px 5px 20px 5px;
+
+}
+
+div.sub-container{
+    float: left;
+}
+
+div.addempdiv{
+    border: 10px;
+    border:solid;
+    width: 300px;
+}
+
+div.fetchdiv{
+    border: 10px;
+    border:solid;
+    width: 300px;
+}
+
+div.rmdiv{
+    border: 10px;
+    border:solid;
+    width: 300px;
+}
+
+#container{
+    border: #06113C;
+    border-width: 20px;
+    margin-left: 100px;
+}
+
+h1 {
+    background-color: #06113C;
+    color: #fff;
+    text-align: center;
+    font-size: 72px;
+    margin-top: 0;
+    padding: 25px 0;
+}
